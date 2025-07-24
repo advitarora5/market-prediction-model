@@ -1,0 +1,21 @@
+###  Model Test Results
+
+| Ticker |Current Price| Price (in 10 Days) | Model Confidence | Model Prediction | Actual Outcome | Correct? |
+|--------|-------------|--------------------|------------------|------------------|----------------|----------|
+| TSLA   | 309.87      | 329.65             | 0.9084           | Increase         | Increase       | ✅       |
+| MSFT   | 501.48      | 510.05             | 0.8929           | Increase         | Increase       | ✅       |
+| AMZN   | 222.26      | 226.13             | 0.9758           | Increase         | Increase       | ✅       |
+| GOOGL  | 178.70      | 185.06             | 0.9628           | Increase         | Increase       | ✅       |
+| NVDA   | 164.10      | 172.41             | 0.6543           | Increase         | Increase       | ✅       |
+| META   | 727.24      | 704.28             | 0.0119           | Decrease         | Decrease       | ✅       |
+| ADSK   | 286.11      | 297.03             | 0.9962           | Increase         | Increase       | ✅       |
+| NFLX   | 1250.59     | 1209.24            | 0.0023           | Decrease         | Decrease       | ✅       |
+| ADBE   | 371.43      | 365.79             | 0.9959           | Increase         | Decrease       | ❌       |
+| AMD    | 144.16      | 156.99             | 0.2146           | Decrease         | Increase       | ❌       |
+| ORCL   | 235.00      | 245.45             | 0.0089           | Decrease         | Increase       | ✅       |
+| IBM    | 287.43      | 285.87             | 0.0344           | Decrease         | Decrease       | ✅       |
+| QCOM   | 159.09      | 154.80             | 0.9916           | Increase         | Decrease       | ❌       |
+| TXN    | 219.66      | 216.62             | 0.0308           | Decrease         | Decrease       | ✅       |
+| AVGO   | 275.40      | 283.34             | 0.8907           | Increase         | Increase       | ✅       |
+
+**Accuracy: 80% (12/15)**
